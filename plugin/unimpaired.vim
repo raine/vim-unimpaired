@@ -166,8 +166,8 @@ nnoremap <silent> <Plug>(unimpaired-directory-next)     :<C-U>execute <SID>NextF
 nnoremap <silent> <Plug>(unimpaired-directory-previous) :<C-U>execute <SID>PreviousFileEntry(v:count1)<CR>
 nnoremap <silent> <Plug>unimpairedDirectoryNext     :<C-U>execute <SID>NextFileEntry(v:count1)<CR>
 nnoremap <silent> <Plug>unimpairedDirectoryPrevious :<C-U>execute <SID>PreviousFileEntry(v:count1)<CR>
-exe s:Map('n', ']f', '<Plug>(unimpaired-directory-next)')
-exe s:Map('n', '[f', '<Plug>(unimpaired-directory-previous)')
+" exe s:Map('n', ']f', '<Plug>(unimpaired-directory-next)')
+" exe s:Map('n', '[f', '<Plug>(unimpaired-directory-previous)')
 
 " Section: Diff
 
